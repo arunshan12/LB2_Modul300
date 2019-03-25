@@ -1,5 +1,6 @@
 
-Übersicht
+# Übersicht
+===
 - [test](#test)
 - [github arun](#github-arun)
 01.01 - Synchronistation Lokal -> Online
@@ -12,13 +13,7 @@
 07 - Reverse Proxy
 08 - Testfälle
 01 - GitHub Account
-___
 
-test
-===
-
-github arun
-===
 
 Git-Bash öffnen
 Folgenden Befehl mit der Account Mail von GitHub einfügen 
