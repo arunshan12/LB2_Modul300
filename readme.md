@@ -4,11 +4,11 @@
 
 - [Übersicht](#%C3%BCbersicht)
 - [K1](#k1)
-  - [VirtualBox](#virtualbox)
-  - [Vagrant](#vagrant)
-  - [Visualstudio-Code](#visualstudio-code)
-  - [Git-Client](#git-client)
-  - [SSH-Key-für-Client-erstellt](#ssh-key-f%C3%BCr-client-erstellt)
+  - [virtualBox](#virtualbox)
+  - [vagrant](#vagrant)
+  - [visualstudio-Code](#visualstudio-code)
+  - [vit-client](#vit-client)
+  - [ssh-key-fuer-client-erstellt](#ssh-key-fuer-client-erstellt)
 - [K2](#k2)
   - [K1.1](#k11)
   - [K1.2](#k12)
@@ -35,15 +35,15 @@
 hallo
 
 
-## VirtualBox
+## virtualBox
 sdsds
-## Vagrant
+## vagrant
 sdsds
-## Visualstudio-Code
+## visualstudio-Code
 sdasda
-## Git-Client
+## vit-client
 sdsfds
-## SSH-Key-für-Client-erstellt
+## ssh-key-fuer-client-erstellt
 safdsd
 
 # K2
