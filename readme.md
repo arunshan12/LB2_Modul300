@@ -10,23 +10,23 @@
   - [vit-client](#vit-client)
   - [ssh-key-fuer-client-erstellt](#ssh-key-fuer-client-erstellt)
 - [K2](#k2)
+  - [Github-Account-erstellt](#github-account-erstellt)
+  - [Git-Client-wurde-verwendet](#git-client-wurde-verwendet)
+  - [Dokumentation-ist-als-Mark-Down-vorhanden](#dokumentation-ist-als-mark-down-vorhanden)
+  - [Mark-down-Editor-ausgewählt-und-eingerichtet](#mark-down-editor-ausgew%C3%A4hlt-und-eingerichtet)
+  - [Mark-down-ist-strukturiert](#mark-down-ist-strukturiert)
+- [K3](#k3)
   - [K1.1](#k11)
   - [K1.2](#k12)
   - [K1.3](#k13)
   - [K1.4](#k14)
   - [K1.5](#k15)
-- [K3](#k3)
+- [K4](#k4)
   - [K1.1](#k11-1)
   - [K1.2](#k12-1)
   - [K1.3](#k13-1)
   - [K1.4](#k14-1)
   - [K1.5](#k15-1)
-- [K4](#k4)
-  - [K1.1](#k11-2)
-  - [K1.2](#k12-2)
-  - [K1.3](#k13-2)
-  - [K1.4](#k14-2)
-  - [K1.5](#k15-2)
 
 
 
@@ -49,15 +49,15 @@ safdsd
 # K2
 
 df
-## K1.1
+## Github-Account-erstellt
 sdsds
-## K1.2
+## Git-Client-wurde-verwendet
 sdsds
-## K1.3
+## Dokumentation-ist-als-Mark-Down-vorhanden
 sdasda
-## K1.4
+## Mark-down-Editor-ausgewählt-und-eingerichtet
 sdsfds
-## K1.5
+## Mark-down-ist-strukturiert
 safdsd
 
 # K3
