@@ -16,17 +16,17 @@
   - [Mark-down-Editor-ausgewählt-und-eingerichtet](#mark-down-editor-ausgew%C3%A4hlt-und-eingerichtet)
   - [Mark-down-ist-strukturiert](#mark-down-ist-strukturiert)
 - [K3](#k3)
+  - [Kennt-die-Vagrant-Befehle](#kennt-die-vagrant-befehle)
+  - [Andere-vorgefertigte-VM-auf-eigenen-Notebook-aufgesetzt](#andere-vorgefertigte-vm-auf-eigenen-notebook-aufgesetzt)
+  - [Projekt mit Git und Mark Down dokumentiert](#projekt-mit-git-und-mark-down-dokumentiert)
+  - [Bestehende-VM-aus-Vagrant-Cloud-einrichten](#bestehende-vm-aus-vagrant-cloud-einrichten)
+  - [Eingerichte-Umgebung-ist-dokumentiert](#eingerichte-umgebung-ist-dokumentiert)
+- [K4](#k4)
   - [K1.1](#k11)
   - [K1.2](#k12)
   - [K1.3](#k13)
   - [K1.4](#k14)
   - [K1.5](#k15)
-- [K4](#k4)
-  - [K1.1](#k11-1)
-  - [K1.2](#k12-1)
-  - [K1.3](#k13-1)
-  - [K1.4](#k14-1)
-  - [K1.5](#k15-1)
 
 
 
@@ -63,15 +63,15 @@ safdsd
 # K3
 
 vdf
-## K1.1
+## Kennt-die-Vagrant-Befehle
 sdsds
-## K1.2
+##             Andere-vorgefertigte-VM-auf-eigenen-Notebook-aufgesetzt
 sdsds
-## K1.3
+## Projekt mit Git und Mark Down dokumentiert
 sdasda
-## K1.4
+## Bestehende-VM-aus-Vagrant-Cloud-einrichten
 sdsfds
-## K1.5
+## Eingerichte-Umgebung-ist-dokumentiert
 safdsd
 
 # K4
