@@ -22,11 +22,11 @@
   - [Bestehende-VM-aus-Vagrant-Cloud-einrichten](#bestehende-vm-aus-vagrant-cloud-einrichten)
   - [Eingerichte-Umgebung-ist-dokumentiert](#eingerichte-umgebung-ist-dokumentiert)
 - [K4](#k4)
-  - [K1.1](#k11)
-  - [K1.2](#k12)
-  - [K1.3](#k13)
-  - [K1.4](#k14)
-  - [K1.5](#k15)
+  - [Firewall-eingerichtet-inkl.-rules](#firewall-eingerichtet-inkl-rules)
+  - [Sicherheitsmassnahmen-sind-dokumentiert](#sicherheitsmassnahmen-sind-dokumentiert)
+  - [Reverse-Proxy-eingerichtet](#reverse-proxy-eingerichtet)
+  - [Zugang-mit-SSH-Tunnel-abgesichert](#zugang-mit-ssh-tunnel-abgesichert)
+  - [Benutzer-und-Rechtevergabe-ist-eingerichtet](#benutzer-und-rechtevergabe-ist-eingerichtet)
 
 
 
@@ -77,13 +77,13 @@ safdsd
 # K4
 
 dsf
-## K1.1
+## Firewall-eingerichtet-inkl.-rules
 sdsds
-## K1.2
+## Sicherheitsmassnahmen-sind-dokumentiert
 sdsds
-## K1.3
+## Reverse-Proxy-eingerichtet
 sdasda
-## K1.4
+## Zugang-mit-SSH-Tunnel-abgesichert
 sdsfds
-## K1.5
+## Benutzer-und-Rechtevergabe-ist-eingerichtet
 safdsd
