@@ -175,12 +175,12 @@ Ich habe Client-Installation auf [dieser](https://git-scm.com/downloads) Seite h
 1. Terminal öffnen
 2. Ordner für Repository erstellen:
     Shell
-      $ cd C:\Users\silva\Desktop
+      $ cd C:\Users\Arun Shanmuganathan\M300\eigene umgebung\virtual boxen
       $ mkdir githublb2
      
 3. Repository mit SSH klonen:
     Shell
-      $ git clone git@github.com:silvanwalz/lb2.git
+      $ git clone git@github.com:arunshan12/lb2.git
 
       Cloning into 'lb2'...
      
@@ -218,7 +218,7 @@ Ich habe Client-Installation auf [dieser](https://git-scm.com/downloads) Seite h
 2.  Unter den Menübereichen auf der linken Seite zum Abschnitt *SSH und GPG keys* wechseln
 3.  Auf *New SSH key* klicken
 4.  Im Formular unter *Title* die Bezeichnung MB SSH-Key vergeben
-5.  Den Key von der Datei *C:\Users\silva\.ssh\id_rsa.pub* einfügen und auf *Add SSH key* klicken
+5.  Den Key von der Datei *C:\Users\Arun Shanmuganathan\.ssh\id_rsa.pub* einfügen und auf *Add SSH key* klicken
 
 *SSH Zugriff auf VM*
 
