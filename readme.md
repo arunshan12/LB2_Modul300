@@ -198,7 +198,7 @@ Ich habe Client-Installation auf [dieser](https://git-scm.com/downloads) Seite h
 
 1.  Folgenden Befehl mit der Account-E-Mail von GitHub in Bash einfügen:
     Shell
-      $  ssh-keygen -t rsa -b 4096 -C "silvan.walz@hotmail.ch"
+      $  ssh-keygen -t rsa -b 4096 -C "arun.shanmuganathan@edu.tbz.ch"
     
 2. Neuer SSH-Key wird erstellt:
     Shell
@@ -346,19 +346,19 @@ K5
 
 *Bereits bekannt*
 
-- Die manuelle Virtualisierung von Ubuntu habe ich schon öfters in anderen Modulen oder im ÜK gemacht.
-- Github haben wir bereits in einem anderen Modul gebraucht, doch ich habe mich nicht wirklich gut damit ausgekannt.
+- Virtualisierungen mit Linux und Windows habe ich schon sehr oft in Üks angeschaut, jedoch nie automatisiert.
+- Ich habe schon von GitHub gehört, jedoch habe ich dies nie würklich gebraucht oder angeschaut.
 
 *Neu*
 
- - Vor diesem Modul habe ich immer mit VMWare gearbeiet, also war VirtualBox neu für mich. Ich bin aber sehr schnell und gut zurecht gekommen, da es keine grossen Unterschiede zwischen den beiden gibt.
- - Ich kannte Vagrant vor diesem Modul nicht, daher war alles davon neu für mich.
+ - Virtualbox ist ein neues Programm für mich, obwohl es sich nicht sehr von VMWare unterscheidet.
+ - Ich kannte Vagrant vor diesem Modul nicht, daher habe ich nur hinzugelernt
  - Auch mit Markdown bin ich zuvor nicht in Berührung gekommen.
 
 *Fazit*
 
-Ich konnte sehr von LB2 provitieren, da vieles neu für mich war. Vor allem Vagrant und Markdown konnte ich viel neues lernen, da ich zuvor noch nie etwas damit zu tun hatte. Auch verstehe ich nun Github einiges besser als zuvor.
+In der LB2 konnte ich sehr viel neues lernen. Die Auseinandersetzung mit Vagrant und Virtualbox hat mir sehr geholfen. Ich kenne nun verschiedene neue Befehle von Vagrant. Kann ein Vagrantfile erstellen und somit automatisiert VMs erstellen lassen. In meinem Arbeitsplatz kann ich dies gut gebrauchen, wenn ich in die Abteilung WindowsServer komme.
 
 ## Reflexion
 
-Ich habe bei der LB2 mehr Zeit in die Dokumentation gesteckt, wie in die eigentliche Arbeit. Da wir die Funktionen, die in LB2 automatisert werden müssen, schon beim Teil 10 manuell gemacht haben, konnte man vieles wiederholen. Einzig die Anpassungen im Vagrantfile sind neu dazugekommen. Wobei man sagen muss, dass die meissten Befehle, die darin eingebaut werden, ebenfalls schon bei Teil 10 vorgekommen sind. Die Dokumentation mit Markdown war, wie schon erwähnt neu für mich und hat daher die meisste Zeit in anspruch genommen.
+Ich habe länger gebraucht um die LB2 fertig zu stellen. Da ich zu Beginn nicht ganz wusste wie ich vorgehen soll. zum Glück konnte ich mich mit meinen Mitlernenden austauschen und somit den Auftrag für mich klar formuliert zu bekommen. Nun fehlten nur noch die Befehle für das Vagrantfile und die Dokumentation musste geschrieben werden. Auf der Webseite VagrantCloud konnte ich mein Betriebssystem auswählen. Danach habe ich mithilfe der Dokumentation im Github weitere Befehle herausgefunden um das Vagrantgfile zu vervollständigen. Die restlichen Befehle konnte ich mithilfe des Internets und Kollegen herausfinden und ergänzen. Die Dokumentation via Markdown war auch, wie schon gesagt neu für mich. Daher hatte ich länger als wenn ich eine Word Dokumentation schreiben würde. Zum Glück gab es ein CheatSheet welches ich benutzen konnte somit war auch dies keine grosse bürde.
