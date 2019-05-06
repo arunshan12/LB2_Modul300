@@ -64,23 +64,23 @@ Nun ist die VM erstellt.
 *Danach habe ich in der Bash folgende Befehle ausgeführt.*
 
 1. Paketliste neu einlesen und Pakete aktualisieren:
-   '''Shell 
+   ```Shell 
    $  sudo apt-get update   #Paketlisten des Paketmanagement-Systems "APT" neu einlesen
    
    $  sudo apt-get update   #Installierte Pakete wenn möglich auf verbesserte Versionen aktualisieren
 
    $  sudo reboot           #System-Neustart durchführen
-   '''
+   ```
 2. Software Controlcenter "Synaptic" installieren:
-   '''Shell 
+   ```Shell 
    $  sudo apt-get install synaptic
-   '''
+   ````
 3. Nach erfolgreicher Installation in der Suche nach "Synaptic Package Manager" suchen und diesen starten
 4. Innerhalb des Managers nach "apache" (Webserver-Programm) suchen und dieses (inkl. aller Abhängigkeiten) installieren
 5. System-Neustart durchführen:
-   '''Shell 
+   ```Shell 
    $  sudo reboot
-   '''
+   ```
 6. Danach habe geprüft, ob der Standard-Content des Webservers unter "http://127.0.0.01:80" erreichbar ist
 
 
@@ -92,40 +92,40 @@ Zuerst habe ich Vagrant auf [dieser Webseite](https://www.vagrantup.com/ "vagran
 *Danach habe ich mit Vagrant eine VM erstellt.*
 1. Terminal öffnen
 2. Einen neuen Ordner für die VM anlegen:
-    Shell
+    ```Shell
       $ cd C:\Users\Arun Shanmuganathan\M300\eigene umgebung\
       $ mkdir virtual boxen
       $ cd virtual boxen
-     
+    ``` 
 3. Vagrantfile erzeugen, VM erstellen und starten:
-    Shell
+    ```Shell
       $ vagrant box add http://10.1.66.11/vagrant/ubuntu/xenial64.box --name ubuntu/xenial64  #Vagrant-Box vom Netzwerkshare hinzufügen
       $ vagrant init ubuntu/xenial64        #Vagrantfile erzeugen
       $ vagrant up --provider virtualbox    #Virtuelle Maschine erstellen & starten
-     
+    ``` 
 4. Die VM ist nun bereit und kann mit SSH-Zugriff bedient werden:
-    Shell
+    ```Shell
       $ cd C:\Users\Arun Shanmuganathan\M300\eigene umgebung\virtual boxen     #Zum Verzeichnis der VM wechseln
       $ vagrant ssh                       #SSH-Verbindung zur VM aufbauen
-     
+     ```
 
 *Nachfolgend habe ich eine VM mit Apache Webserver von einem bereits abgeänderten File erstellt:*
 
 1. Terminal öffnen
 2. In das M300-Verzeichnis wechseln:
-    Shell
+    ```Shell
       $ cd C:\Users\Arun Shanmuganathan\M300\eigene umgebung\virtual boxen
-     
+     ```
 3. VM erstellen und starten:
-    Shell
+    ```Shell
       $ vagrant up
-     
+    ``` 
 4. Danach habe ich im Webbrowser geprüft, ob der Standard-Content des Webservers unter "http://127.0.0.01:8080" (localhost) erreichbar ist
 5. Später habe ich im Ordner `\web` die Hauptseite `index.html` editiert und das Resultat überprüft.
 6. Abschliessend habe ich die VM wieder gelöscht:
-    Shell
+    ```Shell
       $ vagrant destroy -f
-    
+    ```
 
 ## Visual Studio Code
 > [⇧ *Nach oben*](#inhaltsverzeichnis)
@@ -165,31 +165,31 @@ Ich habe Client-Installation auf [dieser](https://git-scm.com/downloads) Seite h
 *Danach habe ich den Client konfiguriert:*
 1. Terminal öffnen
 2. Git konfigurieren mit Informationen des GitHub-Accounts:
-    Shell
+    ```Shell
       $ git config --global user.name "<username>"
       $ git config --global user.email "<e-mail>"
-     
+    ``` 
 
 *Damit ich das readme-File lokal bearbeiten kann, habe ich das Repository heruntergeladen und aktualisiert.*
 
 1. Terminal öffnen
 2. Ordner für Repository erstellen:
-    Shell
+    ```Shell
       $ cd C:\Users\Arun Shanmuganathan\M300\eigene umgebung\virtual boxen
       $ mkdir githublb2
-     
+     ```
 3. Repository mit SSH klonen:
-    Shell
+    ```Shell
       $ git clone git@github.com:arunshan12/lb2.git
 
       Cloning into 'lb2'...
-     
+    ``` 
 4. Repository aktualisieren und Status anzeigen:
-    Shell
+    ```Shell
       $ git pull
 
       Already up to date.
-    
+    ```
 
 ## SSH-Key 
 > [⇧ *Nach oben*](#inhaltsverzeichnis)
@@ -197,22 +197,22 @@ Ich habe Client-Installation auf [dieser](https://git-scm.com/downloads) Seite h
 *Zuerst musste ich Lokal einen SSH-Key erstellen:*
 
 1.  Folgenden Befehl mit der Account-E-Mail von GitHub in Bash einfügen:
-    Shell
+    ```Shell
       $  ssh-keygen -t rsa -b 4096 -C "arun.shanmuganathan@edu.tbz.ch"
-    
+    ```
 2. Neuer SSH-Key wird erstellt:
-    Shell
+    ```Shell
       Generating public/private rsa key pair.
-    
+    ```
 3. Bei der Abfrage, unter welchem Namen der Schlüssel gespeichert werden soll, die Enter-Taste drücken (für Standard):
-    Shell
+    ```Shell
       Enter a file in which to save the key (~/.ssh/id_rsa): [Press enter]
-    
+    ```
 4. Nun habe ich ein Passwort für den Key festgelegt:
-    Shell
+    ```Shell
       Enter passphrase (empty for no passphrase): [Passwort]
       Enter same passphrase again: [Passwort wiederholen]
-    
+    ```
 *Danach kann ich den SSH-Key dem Client hinzufügen:*
 1. Auf www.github.com im Benutzerkonto *Settings* aufrufen
 2.  Unter den Menübereichen auf der linken Seite zum Abschnitt *SSH und GPG keys* wechseln
@@ -223,9 +223,9 @@ Ich habe Client-Installation auf [dieser](https://git-scm.com/downloads) Seite h
 *SSH Zugriff auf VM*
 
 Um Zugriff via SSH auf die VM aufzubauen, muss man bloss einen kurzen Befehl eingeben.
-shell
+```shell
 vagrant ssh
-
+```
 
 _
 K2
