@@ -64,23 +64,23 @@ Nun ist die VM erstellt.
 *Danach habe ich in der Bash folgende Befehle ausgeführt.*
 
 1. Paketliste neu einlesen und Pakete aktualisieren:
-   Shell 
+   '''Shell 
    $  sudo apt-get update   #Paketlisten des Paketmanagement-Systems "APT" neu einlesen
    
    $  sudo apt-get update   #Installierte Pakete wenn möglich auf verbesserte Versionen aktualisieren
 
    $  sudo reboot           #System-Neustart durchführen
-   
+   '''
 2. Software Controlcenter "Synaptic" installieren:
-   Shell 
+   '''Shell 
    $  sudo apt-get install synaptic
-   
+   '''
 3. Nach erfolgreicher Installation in der Suche nach "Synaptic Package Manager" suchen und diesen starten
 4. Innerhalb des Managers nach "apache" (Webserver-Programm) suchen und dieses (inkl. aller Abhängigkeiten) installieren
 5. System-Neustart durchführen:
-   Shell 
+   '''Shell 
    $  sudo reboot
-   
+   '''
 6. Danach habe geprüft, ob der Standard-Content des Webservers unter "http://127.0.0.01:80" erreichbar ist
 
 
